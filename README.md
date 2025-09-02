@@ -40,3 +40,16 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 3. Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 **Data Integration**
+To understand the data integration between the different tables and see the relations bettween them, the following integration architecture shows that:
+
+
+**Data Modeling**
+After creating the bronze layer which hosts the raw data and then the silver layer in which we did data transformation, in the gold layer the data is modelled according to the star schema having a fact table and dimensions.
+
+The data model is like the following:
+
+
+The data flow is explained in the following graph:
+
+
+
